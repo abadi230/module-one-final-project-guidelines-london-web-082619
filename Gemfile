@@ -5,3 +5,8 @@ gem "sinatra-activerecord"
 gem "sqlite3"
 gem "pry"
 gem "require_all"
+
+gem 'tty-prompt'
+gem 'colorize', '~> 0.8.1'
+require 'colorized_string'
+gem 'unirest'
